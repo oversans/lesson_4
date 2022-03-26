@@ -1,0 +1,39 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.header-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.block-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+.header-menu{
+    flex-grow: 3;
+}
+.cards-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.social-networks{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-search{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+}
