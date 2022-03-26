@@ -1,0 +1,116 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* START STYLE FOR HESDER */
+.header{
+    width: 100%;
+    color: white;
+    padding: 20px 0;
+    background-color: #151c39e8;
+
+}
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.menu-item{
+    list-style: none;
+}
+.menu-link{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.logo-img{
+    margin-right: 40px;
+}
+/* END STYLE FOR HESDER */
+
+/* START STYLE FOR BANNER */
+.banner-section{
+    background: url(./img/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    width: 100%;
+}
+.banner-title, .banner-description{
+    text-align: center;
+    color: white;
+}
+.banner-title{
+    font-size: 48px;
+}
+/* END STYLE FOR BANNER */
+
+/* START STYLE FOR CARDS */
+.card-section{
+    padding: 50px 0;
+}
+.cards-title, .cards-description{
+    text-align: center;
+    color: #151c39;
+}
+.card{
+    width: 25%;
+    /* box-shadow: сдвиг по x, сдвиг по y,  */
+    box-shadow: 0px 2px 7px 0px #9e90ff;
+    margin-top: 25px;
+    padding: 25px;
+    text-align: center;
+}
+.cards-title, .card-text{
+    margin-bottom: 10px;
+}
+.card-button{
+    background: #151c39;
+    padding: 10px 70px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.card-button:hover{
+    background: rgb(0, 38, 255);
+    color: #025167;
+}
+.card-link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/* END STYLE FOR CARDS */
+
+/* START STYLE FOR FOOTER */
+.footer{
+    background: url(./img/footer-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    width: 100%;
+}
+.footer-text{
+    color: white;
+}
+.footer-logo{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+.footer-search-input{
+    height: 40px;
+    border-radius: 10px;
+    flex-grow: 3;
+    margin-right: 20px;
+}
+.footer-search-button{
+    height: 40px;
+    border-radius: 10px;
+    flex-grow: 2;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* END STYLE FOR FOOTER */
